@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Apple 2023 Laptop MacBook Pro con Chip M2",
+    "description": "Apple 2023 Laptop MacBook Pro con Chip M2 Pro con CPU de 12 núcleos y GPU de 19 núcleos : Pantalla Liquid Retina XDR de 16 pulgadas, 16GB de Memoria unificada, 512 GB de almacenamiento SSD,Color plata",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/61CHqS31PiL._AC_SL1500_.jpg",
+    "code": "abc1232",
+    "stock": 52
+  },
+  {
+    "id": 2,
+    "title": "Apple iPhone 15 Pro (128 GB) - Titanio Azul",
+    "description": "El iPhone 15 Pro tiene un diseño resistente y ligero, con titanio de calidad aeroespacial y parte posterior de vidrio mate texturizado. Frente de Ceramic Shield, más duro que el vidrio más duro de cualquier smartphone. Y resistencia a las salpicaduras, al agua y al polvo.",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/81QjTSwReNL._AC_SX522_.jpg",
+    "code": "abc1232",
+    "stock": 52
+  },
+  {
+    "id": 3,
+    "title": "SAMSUNG Q58 512GB Azul",
+    "description": "Despliega una visualización amplia y sumérgete en tu entretenimiento favorito mientras viajas con Galaxy Z Fold5. Nuestro Fold más delgado y duradero hasta ahora cuenta con una enorme visualización interior de 7.6 pulgadas* que se abre para elevar tu streaming y juegos. La visualización de doble aplicación te permite dominar la multitarea en varias ventanas a la vez. Cuando está plegado, la visualización frontal es perfecta para usar con una sola mano sobre la marcha.",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/61LyIe34PVL._AC_SX522_.jpg",
+    "code": "abc1233",
+    "stock": 52
+  },
+  {
+    "id": 4,
+    "title": "Samsung Notebook 9 Pro 15” Pen",
+    "description": "Samsung Notebook 9 Pro 15” Pen 512GB SSD 16GB RAM EXTREME (FAST 8th gen Intel Core i7 Processor with TURBO BOOST to 4.00GHz, 16 GB RAM, 512 GB SSD, 15” TOUCHSCREEN, Win 10) PC Laptop Computer NP940X5N",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/61CXQT1XRfL._AC_SL1000_.jpg",
+    "code": "abc1234",
+    "stock": 52
+  },
+  {
+    "id": 5,
+    "title": "Dell Alienware m16 Laptop",
+    "description": "Dell Alienware m16 Laptop para juegos (2023) | FHD+ de 16 pulgadas | SSD Core i9-4TB - RAM - RTX 4090 | 24 núcleos a 5,4 GHz - CPU de 13ª generación - GDDR6X de 16 GB Win 11 Pro",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/91tfqe+8kDL._AC_SL1500_.jpg",
+    "code": "abc1234",
+    "stock": 52
+  },
+  {
+    "id": 6,
+    "title": "Motorola RAZR 5G",
+    "description": "Motorola RAZR 5G | Desbloqueado | Fabricado para Estados Unidos 8/256GB | Cámara de 48MP | 2020 | Grafito Pulido",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/61aGanMnfFL._AC_SL1500_.jpg",
+    "code": "abc1234",
+    "stock": 52
+  }
+]
