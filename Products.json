@@ -52,5 +52,41 @@
     "thumbnail": "https://m.media-amazon.com/images/I/61aGanMnfFL._AC_SL1500_.jpg",
     "code": "abc1234",
     "stock": 52
+  },
+  {
+    "id": 7,
+    "title": "Motorola Moto G51 5G",
+    "description": "Motorola Moto G51 5G - Celular 128GB Memoria, 4 GB de RAM, Cámara 50MP, FHD+ 6.8 Pulgadas, Celular Desbloqueado Nacional, 1 Año de Garantía - Dorado",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/61vaBE9x56L._AC_SL1500_.jpg",
+    "code": "abc1234",
+    "stock": 52
+  },
+  {
+    "id": 8,
+    "title": "UGREEN Soporte Celular Auto",
+    "description": "UGREEN Soporte Celular Auto, Base Porta para Celular Automóvil para Ventilación, 360° Rotación Car Phone Holder para iPhone 15 14 13 12 11 Pro MAX Plus, Galaxy S23 S22 Ultra, Huawei, Xiaomi Redmi",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/61WpJZOE9iL._AC_SL1500_.jpg",
+    "code": "abc1234",
+    "stock": 52
+  },
+  {
+    "id": 9,
+    "title": "Motorola Moto G82",
+    "description": "Motorola Moto G82 - Celular 128 GB de Memoria y 6 GB de RAM, Cámara Trasera Triple de 50MP, Pantalla OLED 6.6 Pulgadas, Más de 30h de Batería, Celular Desbloqueado Nacional - Blanco",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/91EZHMzCu4L._AC_SL1500_.jpg",
+    "code": "abc1234",
+    "stock": 52
+  },
+  {
+    "id": 10,
+    "title": "Asus Vivobook 15",
+    "description": "Asus Vivobook 15 / E1504GA-NJ229W / Intel Core i3/ 8Nucleos / 8GB RAM/Incluye Mouse y Mochila/Teclado en español",
+    "price": 200,
+    "thumbnail": "https://m.media-amazon.com/images/I/81VpmqLls-L._AC_SL1500_.jpg",
+    "code": "abc1234",
+    "stock": 52
   }
 ]
