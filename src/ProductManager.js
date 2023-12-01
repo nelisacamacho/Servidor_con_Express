@@ -74,9 +74,11 @@ class ProductManager {
     getProductById = async (productId) => {
         try {
             const products = await this.getProducts();
-            return products.find(product => product.id === productId);
+            const product = await products.find(product => product.id === productId);
+            return product;
         } catch (error) {
-            console.error(error)
+            console.log(error);
+            return {error}
         }
     }
 
@@ -84,8 +86,8 @@ class ProductManager {
         try {
             if(!productId || !value) return console.error('Must provide the required information to update a product')
             let products = await this.getProducts();
-            const product = products.find(product => product.id === productId);
-            const productIdx = products.findIndex(product => product.id === productId);
+            const product = await products.find(product => product.id === productId);
+            const productIdx = await products.findIndex(product => product.id === productId);
             console.log(productId);
             products[productIdx] = {
                 ...product,
@@ -93,7 +95,7 @@ class ProductManager {
                 'id': productId
             }
             await fs.promises.writeFile(this.path, JSON.stringify(products), 'utf-8');
-            return this.getProductById(productId);
+            return await this.getProductById(productId);
         } catch (error) {
             console.error(error)
         }
@@ -105,7 +107,7 @@ class ProductManager {
             const product = await this.getProductById(productId);
             if(!product) return `Product with ID ${productId} does not exist.`
             const products = await this.getProducts();
-            const productIdx = products.findIndex(product => product.id === productId);
+            const productIdx = await products.findIndex(product => product.id === productId);
             products.splice(productIdx, 1);
             await fs.promises.writeFile(this.path, JSON.stringify(products), 'utf-8');
             return products;
